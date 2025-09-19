@@ -1,10 +1,10 @@
 import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
+import { JobCallbackController } from './controllers/job-callback.controller';
+import { JobCallbackService } from './services/job-callback.service';
 
 @Module({
   imports: [],
-  controllers: [AppController],
-  providers: [AppService],
+  controllers: [JobCallbackController],
+  providers: [JobCallbackService],
 })
 export class AppModule {}
