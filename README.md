@@ -162,7 +162,7 @@ const signatureHeader = `t=${timestamp},s=${signature}`;
 
 ### Environment Variables
 - `PORT` - Server port (default: 3000)
-- `CALLBACK_SECRET` - HMAC shared secret (default: 'JLwe345A2Wjd45')
+
 
 ### CORS
 CORS is enabled for all origins with support for:
@@ -258,6 +258,3 @@ http://your-domain.com/api/v1/job-callback
 ### Expected Response
 The service will respond with HTTP 200 and a JSON response indicating success or failure.
 
-## 📞 Support
-
-For questions or issues, please refer to the Swagger documentation at `/api/docs` or check the application logs for detailed error information.
