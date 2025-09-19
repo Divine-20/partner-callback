@@ -1,7 +1,7 @@
 const axios = require('axios');
 const crypto = require('crypto');
 
-const WEBHOOK_URL = 'http://localhost:3000/api/v1/job-callback';
+const WEBHOOK_URL = 'https://partner-callback.onrender.com/api/v1/job-callback';
 const SECRET_KEY = 'JLwe345A2Wjd45'; // Must match your SHARED_SECRET
 
 // Sample payloads for different events
